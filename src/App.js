@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Card from './Card';
@@ -23,4 +25,12 @@ export default function App() {
   );
 }
 
+function logger() {
+  console.log("Hi Logger")
+}
+
+const sayHi = "Say Hello";
+
+// Named export.
+export { logger, sayHi}
 // export default App;
