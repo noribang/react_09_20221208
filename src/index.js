@@ -4,15 +4,16 @@ import './index.css';
 import './style.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+import EmojiButton from './EmojiButton';
 
-function EmojiButton(props) {
-  return (
-    <button>
-      <span role="img">{props.emoji}</span>
-      {props.label}
-    </button>
-  )
-}
+// function EmojiButton(props) {
+//   return (
+//     <button>
+//       <span role="img">{props.emoji}</span>
+//       {props.label}
+//     </button>
+//   )
+// }
 
 function Header() {
   return (
