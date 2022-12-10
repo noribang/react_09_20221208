@@ -4,7 +4,7 @@ import './index.css';
 import './style.css';
 // import App from './App';
 // import App from './App';
-import MyApp, { logger, sayHi } from './App';
+import MyApp, { logger, sayHi as hi } from './App';
 import reportWebVitals from './reportWebVitals';
 import EmojiButton from './EmojiButton';
 import Header from './Header';
@@ -59,7 +59,7 @@ import Card from './Card';
 // }
 
 logger();
-console.log(sayHi);
+console.log(hi);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

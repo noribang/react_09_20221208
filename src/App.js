@@ -29,7 +29,7 @@ function logger() {
   console.log("Hi Logger")
 }
 
-const sayHi = "Say Hello";
+const sayHi = "Speaking in Hello";
 
 // Named export.
 export { logger, sayHi}
