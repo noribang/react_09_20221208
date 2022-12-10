@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import EmojiButton from './EmojiButton';
 
-function Header() {
+export default function Header() {
     return (
       <header>
         <h1>PetLand</h1>
@@ -13,4 +13,4 @@ function Header() {
     )
   }
 
-export default Header;
+// export default Header;

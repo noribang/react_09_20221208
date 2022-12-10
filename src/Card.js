@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-function Card(props) {
+export default function Card(props) {
     return (
         <div className="card">
         <h2>{props.title}</h2>
@@ -10,5 +10,5 @@ function Card(props) {
     )
 }
 
-export default Card;
+// export default Card;
   

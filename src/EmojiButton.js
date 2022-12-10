@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-function EmojiButton(props) {
+export default function EmojiButton(props) {
     return (
         <button>
         <span role="img">{props.emoji}</span>
@@ -10,4 +10,4 @@ function EmojiButton(props) {
     )
 }
   
-export default EmojiButton;
+// export default EmojiButton;

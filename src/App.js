@@ -4,7 +4,7 @@ import Header from './Header';
 import Card from './Card';
 import EmojiButton from './EmojiButton';
 
-function App() {
+export default function App() {
   return (
     <div>
       <Header />
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+// export default App;
