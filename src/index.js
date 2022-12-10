@@ -5,6 +5,7 @@ import './style.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import EmojiButton from './EmojiButton';
+import Header from './Header';
 
 // function EmojiButton(props) {
 //   return (
@@ -15,16 +16,16 @@ import EmojiButton from './EmojiButton';
 //   )
 // }
 
-function Header() {
-  return (
-    <header>
-      <h1>PetLand</h1>
-      <nav>
-        <EmojiButton emoji="👤" label="Login" />
-      </nav>
-    </header>
-  )
-}
+// function Header() {
+//   return (
+//     <header>
+//       <h1>PetLand</h1>
+//       <nav>
+//         <EmojiButton emoji="👤" label="Login" />
+//       </nav>
+//     </header>
+//   )
+// }
 
 function Card(props) {
   return (
