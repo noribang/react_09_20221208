@@ -6,6 +6,7 @@ import './style.css';
 import reportWebVitals from './reportWebVitals';
 import EmojiButton from './EmojiButton';
 import Header from './Header';
+import Card from './Card';
 
 // function EmojiButton(props) {
 //   return (
@@ -27,14 +28,14 @@ import Header from './Header';
 //   )
 // }
 
-function Card(props) {
-  return (
-    <div className="card">
-      <h2>{props.title}</h2>
-      {props.children}
-    </div>
-  )
-}
+// function Card(props) {
+//   return (
+//     <div className="card">
+//       <h2>{props.title}</h2>
+//       {props.children}
+//     </div>
+//   )
+// }
 
 function App() {
   return (
