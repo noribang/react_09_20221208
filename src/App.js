@@ -6,6 +6,7 @@ import Header from './Header';
 import Card from './Card';
 import EmojiButton from './EmojiButton';
 import PetCard from './PetCard';
+import './style.css';
 
 // Array to be used in PetCards.
 const pets = [
@@ -20,6 +21,11 @@ export default function App() {
     <div>
       <Header />
       <main>
+        <PetCard name={pets[0].name} image={pets[0].image}/>
+        <PetCard name={pets[1].name} image={pets[1].image}/>
+        <PetCard name={pets[2].name} image={pets[2].image}/>
+      </main>
+      {/* <main>
         <Card title="Welcome to PetLand!">
           <em>Find your dream pet</em>
         </Card>
@@ -29,7 +35,7 @@ export default function App() {
             <EmojiButton emoji="🐕" label="Dogs" />
           </div>
         </Card>
-      </main>
+      </main> */}
     </div>    
   );
 }
