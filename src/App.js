@@ -1,27 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Card from './Card';
+import EmojiButton from './EmojiButton';
 
 function App() {
   return (
     <div>
-      test...
-    </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+      <Header />
+      <main>
+        <Card title="Welcome to PetLand!">
+          <em>Find your dream pet</em>
+        </Card>
+        <Card title="What pets would you like to see?">
+          <div>
+            <EmojiButton emoji="😸" label="Cats" />
+            <EmojiButton emoji="🐕" label="Dogs" />
+          </div>
+        </Card>
+      </main>
+    </div>    
   );
 }
 
