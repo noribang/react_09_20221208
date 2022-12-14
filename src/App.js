@@ -21,22 +21,19 @@ const pets = [
 //   { id: 3, name: "Blaise", image: "https://www.thesprucepets.com/thmb/P8d4QM0bI4rJh1WygZDI8f8kNV4=/1000x1000/smart/filters:no_upscale()/GettyImages-870255568-8639765b08c6441dbe35ed72e2d8fb48.jpg", favSnacks: ["Pigeons", "Grass", "Chicken"] }
 // ]
 
-const petsArr = pets.map((petsObj) => {
-  return <PetCard key={petsObj.id} name={petsObj.name} />  
-})
-
 function App() {
   return (
     <div>
       <Header />
       <main>
-        {petsArr}
-        {/* <PetCard name={pets[0].name} image={pets[0].image} />
-        <PetCard name={pets[1].name} image={pets[1].image} /> */}
+        <PetCard />
       </main>
     </div>
-  );
+  )
 }
+
+
+
 
 function logger() {
   console.log("Hi Logger")
